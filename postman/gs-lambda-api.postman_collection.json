@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "aa6de06e-5291-4298-8a8e-8360d1f1b107",
+		"name": "gs-lambda-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15068958"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gs-demo.bahadirsahin.dev/api/v1/ping",
+					"protocol": "https",
+					"host": [
+						"gs-demo",
+						"bahadirsahin",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hash",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gs-demo.bahadirsahin.dev/api/v1/hash/hello",
+					"protocol": "https",
+					"host": [
+						"gs-demo",
+						"bahadirsahin",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v1",
+						"hash",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
